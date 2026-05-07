@@ -45,21 +45,22 @@
 
 ---
 
-## ✨ 特性：
+## ✨ 特性
 
-- **🔗 URL Shortening:** Compress your URLs to their minimal length.
-- **📈 Analytics:** Monitor link analytics and gather insightful statistics.
-- **☁️ Serverless:** Deploy without the need for traditional servers.
-- **🎨 Customizable Slug:** Support for personalized slugs and case sensitivity.
-- **🪄 AI Slug:** Leverage AI to generate slugs.
-- **⏰ Link Expiration:** Set expiration dates for your links.
-- **📱 Device Routing:** Redirect iOS/Android users to different URLs (App Store links).
-- **🖼️ OpenGraph Preview:** Custom social media previews with title, description, and image.
-- **📊 Real-time Analytics:** Live 3D globe visualization and real-time event logs.
-- **🔲 QR Code:** Generate QR codes for your short links.
-- **📦 Import/Export:** Bulk migration via JSON/CSV files.
-- **🌍 Multi-language:** Full i18n support for the dashboard.
-- **🌙 Dark Mode:** Light, dark, and system theme support.
+- **🔗 网址缩短：** 将您的网址压缩至最短。
+- **📈 数据统计：** 监控链接数据并收集有价值的统计信息。
+- **☁️ 无服务器 (Serverless)：** 无需传统服务器即可部署。
+- **🎨 自定义短链后缀 (Slug)：** 支持个性化后缀及大小写敏感。
+- **🪄 AI 生成后缀：** 利用 AI 生成短链后缀。
+- **⏰ 链接过期：** 为您的链接设置过期时间。
+- **📱 设备路由：** 将 iOS/Android 用户重定向至不同的网址（如应用商店链接）。
+- **🖼️ OpenGraph 预览：** 自定义社交媒体预览的标题、描述和图片。
+- **📊 实时数据分析：** 动态 3D 地球可视化与实时事件日志。
+- **🔲 二维码：** 为您的短链接生成二维码。
+- **📦 导入/导出：** 通过 JSON/CSV 文件进行批量迁移。
+- **🌍 多语言：** 控制台全面支持国际化 (i18n)。
+- **🌙 暗黑模式：** 支持浅色、深色及系统主题。
+
 
 ## 🪧 Demo
 
