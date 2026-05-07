@@ -120,7 +120,7 @@ Site Token: SinkCool
 
 ```bash
 npx skills add miantiao-me/sink
-
+```
 
 
 ## 🧰 MCP
