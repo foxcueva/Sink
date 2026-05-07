@@ -18,3 +18,12 @@
 9. Enable Analytics Engine. In **Workers & Pages**, go to **Account details** in the right panel, locate **Analytics Engine**, and click **Set up** to enable the free tier. Name them `sink` and `ANALYTICS`, or else overwrite it with `NUXT_DATASET` and update your `wrangler.jsonc` accordingly
 10. Redeploy the project.
 11. To update your code, refer to the official GitHub documentation: [Syncing a fork branch from the web UI](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-web-ui 'GitHub: Syncing a fork').
+
+
+---
+
+## 26.05.07更新：
+第九步中的部署Analytics Engine相关内容可能已经随Cloudflare更新而过时。最新路径为：
+1. 打开【workers&pages】，进入项目overview。
+2. 在顶部选项卡中找到【binding（绑定）】。
+3. 选择【+添加绑定】>【Analytics Engine】，并且【变量名称】填写【ANALYTICS】，【资料集】填写【sink】即可。
