@@ -126,13 +126,9 @@ npx skills add miantiao-me/sink
 ## 🧰 MCP
 
 
-我们目前原生不支持 MCP Server，但我们提供了 OpenAPI 文档，您可以使用以下方式支持 MCP。
+> 我们目前原生不支持 MCP Server，但我们提供了 OpenAPI 文档，您可以使用以下方式支持 MCP。
 ​请将 OPENAPI_SPEC_URL 中的域名替换为您自己的域名。​
-API_KEY 与环境变量中的 NUXT_SITE_TOKEN 相同。
-
-> Replace the domain name in `OPENAPI_SPEC_URL` with your own domain name.
->
-> The `API_KEY` is the same as the `NUXT_SITE_TOKEN` in the environment variables.
+> API_KEY 与环境变量中的 NUXT_SITE_TOKEN 相同。
 
 ```json
 {
