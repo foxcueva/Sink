@@ -61,7 +61,7 @@
 - **🌍 Multi-language:** Full i18n support for the dashboard.
 - **🌙 Dark Mode:** Light, dark, and system theme support.
 
-## 🪧 Demo
+## 🪧 演示
 
 Experience the demo at [Sink.Cool](https://sink.cool/dashboard). Log in using the Site Token below:
 
