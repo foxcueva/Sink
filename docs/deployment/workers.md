@@ -1,4 +1,5 @@
 # Deployment on Cloudflare Workers
+# 部署到你的Cloudflare workers
 
 1. [Fork](https://github.com/miantiao-me/Sink/fork) the repository to your GitHub account.
 2. Create a [KV namespace](https://developers.cloudflare.com/kv/) (under **Storage & Databases** -> **KV**), and copy the namespace ID.
