@@ -45,25 +45,26 @@
 
 ---
 
-## ✨ 特性：
+## ✨ 特性
 
-- **🔗 URL Shortening:** Compress your URLs to their minimal length.
-- **📈 Analytics:** Monitor link analytics and gather insightful statistics.
-- **☁️ Serverless:** Deploy without the need for traditional servers.
-- **🎨 Customizable Slug:** Support for personalized slugs and case sensitivity.
-- **🪄 AI Slug:** Leverage AI to generate slugs.
-- **⏰ Link Expiration:** Set expiration dates for your links.
-- **📱 Device Routing:** Redirect iOS/Android users to different URLs (App Store links).
-- **🖼️ OpenGraph Preview:** Custom social media previews with title, description, and image.
-- **📊 Real-time Analytics:** Live 3D globe visualization and real-time event logs.
-- **🔲 QR Code:** Generate QR codes for your short links.
-- **📦 Import/Export:** Bulk migration via JSON/CSV files.
-- **🌍 Multi-language:** Full i18n support for the dashboard.
-- **🌙 Dark Mode:** Light, dark, and system theme support.
+- **🔗 网址缩短：** 将您的网址压缩至最短。
+- **📈 数据统计：** 监控链接数据并收集有价值的统计信息。
+- **☁️ 无服务器 (Serverless)：** 无需传统服务器即可部署。
+- **🎨 自定义短链后缀 (Slug)：** 支持个性化后缀及大小写敏感。
+- **🪄 AI 生成后缀：** 利用 AI 生成短链后缀。
+- **⏰ 链接过期：** 为您的链接设置过期时间。
+- **📱 设备路由：** 将 iOS/Android 用户重定向至不同的网址（如应用商店链接）。
+- **🖼️ OpenGraph 预览：** 自定义社交媒体预览的标题、描述和图片。
+- **📊 实时数据分析：** 动态 3D 地球可视化与实时事件日志。
+- **🔲 二维码：** 为您的短链接生成二维码。
+- **📦 导入/导出：** 通过 JSON/CSV 文件进行批量迁移。
+- **🌍 多语言：** 控制台全面支持国际化 (i18n)。
+- **🌙 暗黑模式：** 支持浅色、深色及系统主题。
 
-## 🪧 演示
 
-Experience the demo at [Sink.Cool](https://sink.cool/dashboard). Log in using the Site Token below:
+## 🪧 演示（原作者提供）；
+
+在 [Sink.Cool](https://sink.cool/dashboard) 体验演示。请使用下方的 Site Token 登录：
 
 ```txt
 Site Token: SinkCool
@@ -76,54 +77,57 @@ Site Token: SinkCool
   <img alt="Link Analytics" src="./docs/images/sink.cool_dashboard_link_slug.png"/>
 </details>
 
-## 🧱 Technologies Used
+## 🧱 使用技术
 
-- **Framework**: [Nuxt](https://nuxt.com/)
-- **Database**: [Cloudflare Workers KV](https://developers.cloudflare.com/kv/)
-- **Analytics Engine**: [Cloudflare Workers Analytics Engine](https://developers.cloudflare.com/analytics/)
-- **UI Components**: [shadcn-vue](https://www.shadcn-vue.com/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment**: [Cloudflare](https://www.cloudflare.com/)
+- **框架**: [Nuxt](https://nuxt.com/)
+- **数据库**: [Cloudflare Workers KV](https://developers.cloudflare.com/kv/)
+- **分析引擎**: [Cloudflare Workers Analytics Engine](https://developers.cloudflare.com/analytics/)
+- **UI 组件**: [shadcn-vue](https://www.shadcn-vue.com/)
+- **样式:** [Tailwind CSS](https://tailwindcss.com/)
+- **部署**: [Cloudflare](https://www.cloudflare.com/)
 
-## 🚗 Roadmap [WIP]
+## 🚗 开发路线图 [进行中]
 
-We welcome your contributions and PRs.
+欢迎提交代码贡献和 PR。
 
-- [x] Browser Extension - [Sink Tool](https://github.com/zhuzhuyule/sink-extension)
-- [x] Chrome Extension - [Sink Quick Shorten](https://chromewebstore.google.com/detail/sink-quick-shorten/emlojomjpenjgkaphajcokijobpkejih)
-- [x] Raycast Extension - [Raycast-Sink](https://github.com/foru17/raycast-sink)
-- [x] Apple Shortcuts - [Sink Shortcuts](https://s.search1api.com/sink001)
-- [x] iOS App - [Sink](https://apps.apple.com/app/id6745417598)
-- [ ] Enhanced Link Management (with Cloudflare D1)
-- [ ] Analytics Enhancements (Support for merging filter conditions)
-- [ ] Dashboard Performance Optimization (Infinite loading)
-- [ ] Units Test
+- [x] 浏览器扩展程序 - [Sink Tool](https://github.com/zhuzhuyule/sink-extension)
+- [x] Chrome 扩展程序 - [Sink Quick Shorten](https://chromewebstore.google.com/detail/sink-quick-shorten/emlojomjpenjgkaphajcokijobpkejih)
+- [x] Raycast 扩展程序 - [Raycast-Sink](https://github.com/foru17/raycast-sink)
+- [x] Apple 快捷指令 - [Sink Shortcuts](https://s.search1api.com/sink001)
+- [x] iOS 客户端 - [Sink](https://apps.apple.com/app/id6745417598)
+- [ ] 增强的链接管理（使用 Cloudflare D1）
+- [ ] 数据分析增强（支持合并过滤条件）
+- [ ] 控制台性能优化（无限滚动加载）
+- [ ] 单元测试
 
-## 🏗️ Deployment
+## 🏗️ 部署
 
-> Video tutorial: [Watch here](https://www.youtube.com/watch?v=MkU23U2VE9E)
+> 视频教程：[点击观看](https://www.youtube.com/watch?v=MkU23U2VE9E)
 
-We currently support deployment to [Cloudflare Workers](./docs/deployment/workers.md) (recommended) and [Cloudflare Pages](./docs/deployment/pages.md).
+我们目前支持部署到 [Cloudflare Workers](./docs/deployment/workers.md)（推荐）和 [Cloudflare Pages](./docs/deployment/pages.md)。
 
-## ⚒️ Configuration
+## ⚒️ 配置
 
-[Configuration Docs](./docs/configuration.md)
+[配置文档](./docs/configuration.md)
 
 ## 🔌 API
 
-[API Docs](./docs/api.md)
+[API 文档](./docs/api.md)
 
-## 🤖 AI Skills
+## 🤖 AI 技能
 
-Install Sink AI Skills for enhanced coding assistance:
+安装 Sink AI 技能以获得更强大的编码辅助：
 
 ```bash
 npx skills add miantiao-me/sink
-```
+
 
 ## 🧰 MCP
 
-We currently do not support native MCP Server, but we have OpenAPI documentation, and you can use the following method to support MCP.
+
+我们目前原生不支持 MCP Server，但我们提供了 OpenAPI 文档，您可以使用以下方式支持 MCP。
+​请将 OPENAPI_SPEC_URL 中的域名替换为您自己的域名。​
+API_KEY 与环境变量中的 NUXT_SITE_TOKEN 相同。
 
 > Replace the domain name in `OPENAPI_SPEC_URL` with your own domain name.
 >
